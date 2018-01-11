@@ -1,0 +1,192 @@
+/*
+Theme Name:AJ2018
+Author: AJsDesignLab
+Author URI: http://www.AJsDesignLab.com.au
+Version: 1.0
+*/
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Georgia, serif;
+	font-size:16px;
+	color:#333;
+	background:#bbb;
+}
+
+a:link, a:visited {color:#099;}
+a:hover {color:#036;}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/*GENERAL LAYOUT*/
+.main-container {
+	max-width:1100px;
+	margin:0 auto;
+	padding:0; 
+	background:#fff;
+	}
+
+.header-container {
+	max-width:100%;
+	margin:0 auto;
+	padding:0 20px; 
+	background:#eee;
+}
+
+.content-container {
+	max-width:100%;
+	margin:0 auto;
+	padding:0 20px; 
+}
+
+.footer-container {
+	max-width:100%;
+	margin:0 auto;
+	padding:0 20px; 
+	background:#eee;
+}
+
+p.copyright {
+	text-align:center;
+	font-size:14px;
+	color:#666;
+}
+
+article.post {
+	border-bottom:2px dotted #000;
+}
+
+article.post:last-of-type {
+	border-bottom:none;
+}
+
+/*HEADER*/
+
+.site-header {
+	padding-top:0;
+	margin-top:0;
+} 
+
+.site-header h1 {
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:0;
+	padding-left:0;
+}
+
+.site-header h5 {
+	margin-top:0;
+	padding-top:0;
+	padding-left:0;
+}
+
+/*FOOTER*/
+
+.site-footer {
+	padding-bottom:0;
+	margin-bottom:0;
+	margin-top:20px;
+	background:transparent;
+}
+
+/*NAV MENUS*/
+.site-nav ul{
+	margin:0;
+	padding:0;
+}
+
+.site-nav ul:before, .site-nav ul:after {
+	content:"";
+	display:table;
+}
+
+.site-nav ul:after {
+	clear:both;
+}
+
+.site-nav ul {
+	*zoom:1;
+}
+
+.site-nav ul li {
+	list-style:none;
+	float:left;
+}
+
+/*SITE HEADER MENU*/
+.site-header nav ul li {
+	margin-right:5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display:block;
+	background:#fff;
+	padding: 6px 10px;
+	border:1px solid #333;
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+	border-bottom:0;
+	text-decoration:none;
+}
+
+.site-header nav ul li a:hover {
+	background:#eee;
+	}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	background:#069;
+	color:#fff;
+}
+
+/*FOOTER MENU*/
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right:10px;
+	border-right:1px solid #ccc;
+}
+
+/*PAGE LAYOUTS AND STYLES*/
+article.page h2{
+	font-size:250%;
+
+}
+
+/*TWO COLUMN LAYOUT */
+.left-column {
+	border:1px solid #333;
+	padding:2%;
+	width:45%;
+	margin-right:5px;
+	float:left;
+	background:#cf3;
+}
+
+.right-column {
+	border:1px solid #333;
+	padding:2%;
+	width:45%;
+	margin-left:5px;
+	float:right;
+	background:#fcf;
+}
+
+.float-right {
+	border:1px solid #666;
+	box-shadow:2px 2px #333;
+	float:right;
+	width:30%;
+	font-size:90%;
+	color:#666;
+	margin:0 0 10px 20px;
+	padding:10px;
+}
